@@ -24,51 +24,51 @@ body {
 }
 
 .cabecalho{
-    padding: 2 % 0 % 0 % 15 %;
+    padding: 2% 0% 0% 15%;
 }
 
 .cabecalho__menu{
     display: flex;
-    gap: 80 px;
+    gap: 80px;
     
 }
 
 .cabecalho__menu__link{
     font-family: 'Poppis', sans-serif;
-    font-size: 24 px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
 }
 
 .apresentacao {
-    padding: 5 % 15 %;
+    padding: 5% 15%;
     display: flex; /* coloca os quadrados lado a lado */
     align-items: center;
     justify-content: space-between;
 }
 
 .apresentacao__conteudo{
-    width: 615 px;
+    width: 615px;
     display: flex;
     flex-direction: column;
-    gap:40 px;  /* adiciona espaços iguais entre cada quadrado */
+    gap:40px;  /* adiciona espaços iguais entre cada quadrado */
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 42 px;
+    font-size: 42px;
     font-family: var(--fonte-primaria);
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 24 px;
+    font-size: 24px;
     font-family: var(--fonte-secundaria);
 }
 
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-secundaria);
     font-weight: 400;
-    font-size: 24 px;
+    font-size: 24px;
 
 }
 
@@ -77,21 +77,21 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32 px;
+    gap: 32px;
 
 }
 
 .apresentacao__links__texto{
     display: flex;
     justify-content: center;
-    gap: 16 px;
-    border: 2 px solid var(--cor-terciaria);
-    width: 378 px;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 378px;
     text-align: center;
-    border-radius: 8 px;
-    font-size: 24 px;
-    font-weight: 600 px;
-    padding: 21.5 px 0;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600px;
+    padding: 21.5px 0;
     text-decoration: 0;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
@@ -104,18 +104,18 @@ body {
 
 .imagem{
    position: absolute;
-   width: 498 px;
-   height: 552 px;
-   left: 1039 px;
-   top: 150 px;
+   width: 498px;
+   height: 552px;
+   left: 1039px;
+   top: 150px;
 }
 
 .rodape{
-    padding: 23 px;
+    padding: 23px;
     color: var(--cor-primaria);
     background-color: var(--cor-primaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24 px;
+    font-size: 24px;
     font-weight: 400;
 }
